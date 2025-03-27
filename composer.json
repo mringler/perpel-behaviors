@@ -1,0 +1,38 @@
+{
+    "name" : "mringler/propel-behaviors",
+    "description": "Collection of PHP Propel behaviors.",
+    "keywords": [ "propel", "behavior", "intl", "date", "datetime", "localization" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moritz Ringler",
+            "homepage": "https://github.com/mringler"
+        }
+    ],
+    "version": "0.1",
+    "require": {
+        "php": ">=5.4",
+        "propel/propel": "~2.0@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "type" : "propel-behavior",
+    "extra": {
+        "behaviors": [
+            {
+                "name": "intl-date-getters",
+                "class": "MRingler\\Propel\\Behavior\\IntlDateGetters\\IntlDateGettersBehavior"
+            },{
+                "name": "auditable-table",
+                "class": "MRingler\\Propel\\Behavior\\Auditable\\AuditableBehavior"
+            }
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "MRingler\\Propel\\Behavior\\IntlDateGetters\\" : "behaviors/IntlDateGetters/src",
+            "MRingler\\Propel\\Behavior\\Auditable\\" : "behaviors/Auditable/src"
+        }
+    }
+}
