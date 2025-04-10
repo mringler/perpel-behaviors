@@ -6,8 +6,8 @@ Installation
 From command line:
 
 ```bash
-composer config repositories.repo-name vcs https://github.com/mringler/propel-behaviors
-composer require mringler/propel-behaviors:dev-main
+composer config repositories.repo-name vcs https://github.com/mringler/perpel-behaviors
+composer require mringler/perpel-behaviors:dev-main
 ```
 
 Or adding manually to composer.json before running `composer update`:
@@ -15,12 +15,12 @@ Or adding manually to composer.json before running `composer update`:
 ```json
 {
   "require": {
-    "mringler/propel-behaviors": "dev-master"
+    "mringler/propel-behaviors": "dev-main"
   },
   "repositories": {
     "repo-name": {
       "type": "vcs",
-      "url": "https://github.com/mringler/propel-behaviors.git"
+      "url": "https://github.com/mringler/perpel-behaviors.git"
     }
   }
 }
