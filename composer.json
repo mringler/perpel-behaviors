@@ -1,7 +1,7 @@
 {
-    "name" : "mringler/perpel-behaviors",
+    "name" : "perplorm/perpl-behaviors",
     "description": "Collection of PHP Propel behaviors.",
-    "keywords": [ "propel", "propel2", "perpel", "behavior", "intl", "date", "datetime", "localization" ],
+    "keywords": [ "propel", "propel2", "perpl", "behavior", "intl", "date", "datetime", "localization" ],
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     "version": "v0.2.0",
     "require": {
         "php": ">=7.4",
-        "perpelorm/perpel": ">=2.0"
+        "perplorm/perpl": ">=2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9"
